@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Merriweather', serif;
+
+
+}
+body{
+	background: #FF1493;
+}
+/***************************************************Navigation Bar****************************************/
+.my-nav{
+	padding: 0px 20px;
+}
+.nav-link{
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+}
+.nav-link:hover{
+	color: black;
+	transition: 0.5s;
+}
+.navbar-toggler{
+	color: black;
+}
+.navigation{
+	background-color: #FF1493;
+	box-shadow: 0px 0px 10px;
+}
+.btn-2{
+	color: white;
+	background: black;
+	border-radius: 17px;
+	
+}
+.btn-2:hover{
+	background: transparent;
+	border: 2px solid white;
+	border-radius: 20px;
+	transition: 0.5s;
+}
+/****************************************************Heading1*******************************************/
+.heading-1{
+	font-size: 55px;
+	font-weight: 600;
+}
+.image{
+	border-bottom: 1px solid white;
+}
+.heading-2{
+	font-size: 25px;
+	font-weight: 400;
+}
+.content{
+	color: black;
+}
+.content-1{
+	color: white;
+}
+.content-2{
+	color: black;
+}
+.para{
+	font-weight: 400;
+	font-size: 18px;
+	color: black;
+}
+.icon .img-logo{
+	width: 35px;
+	height:35px;
+	padding: 3px;
+
+}
+.icon .img-logo:hover{
+	width: 40px;
+	height:40px;
+}
+.btn-1{
+	color: white;
+	background: black;
+	padding: 5px 10px;
+	font-weight: 600;
+	font-size: 15px;
+	border-radius: 20px;
+	transition: 0.5s;
+}
+.btn-1:hover{
+	color: black;
+	background: transparent;
+	border: 1px solid black;
+}
+.para-2{
+padding: 0%;
+}
+.Services{
+	border: 1px solid black;
+	border-radius: 10px;
+	background: #ff1493;
+	box-shadow: 0px 0px 5px;
+}
+.Services:hover{
+	background-color: black;
+	color: white;
+	border-top: 3px solid white;
+	transition: 0.9s;
+	
+}
+.Services-image{
+	width: 70px;
+	height: 70px;
+	align-content: center;
+}
+.design{
+	background: white;
+	height: 20vh;
+	width: 100%;
+	border-radius: 30px;
+}
+.about-img{
+	transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+}
+/* --------------------------page -------------------- */
+
+.main-heading {
+	font-size: 60px;
+	font-weight: 600;
+}
+.sub-heading {
+	font-size: 35px;
+	font-weight: 500;
+}
+.sub-heading-1 {
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 33px;
+}
+@media screen and (max-width: 992px) {
+	.main-heading {
+		font-size: 40px;
+	}
+	.sub-heading {
+		font-size: 35px;
+	}
+	.sub-heading-1 {
+		font-size: 20px;
+	}
+}
+/* ******************************************for paragraph ********************************************************/
+
+.paragraph {
+	font-weight: 400;
+	font-size: 18px;
+}
+.paragraph-2 {
+	font-weight: 400;
+	font-size: 12px;
+}
+@media screen and (max-width: 992px) {
+	.paragraph {
+		font-size: 13px;
+	}
+	.paragraph-2 {
+		font-size: 11px;
+	}
+}
+/* ****************************************************service-bg ********************************************************/
+
+.service-bg {
+	border-radius: 10px;
+}
+.service-bg:hover {
+	box-shadow: 0 0 20px black;
+	border: 2px solid black;
+	background-color: transparent;
+}
+@media screen and (max-width: 992px) {
+	.service-bg {
+		font-size: 20px;
+		transition: 0.9s;
+	}
+}
+.service-bg:hover {
+	transition: 0.8s;
+	background-color: black;
+	color: #fddf96;
+}
+/* ****************************services for clients************************************************* */
+
+.client-bg {
+	border: 2px solid black;
+	border-radius: 10px;
+}
+.client-bg:hover {
+	color: #fddf96;
+	background-color: black;
+	border: none;
+	transition: 0.9s;
+}
+/**************** Portfolio file*********************************************************************** */
+
+.portfolio {
+	border-radius: 10px;
+}
+/* -----------------------------------------progress bar----------------------------------------------------- */
+
+.w-progress {
+	height: 25px;
+	border-radius: 50px;
+	width: 90%;
+	background-color: black;
+	color: black;
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 5px;
+}
+.para-progress {
+	font-size: 20px;
+	font-weight: 600;
+}
+.img-border {
+	border: 3px solid white;
+}
+/* ------------------------------------------contact us page --------------------------*/
+
+.icon-1 {
+	font-size: 35px;
+	display: inline;
+}
+.contact {
+	font-size: 25px;
+	font-weight: 600;
+}
+/* ------------------------------------------footer -------------------------------------*/
+
+.footer-2 {
+	border-radius: 20px;
+}
+.w-foot {
+	width: 40%;
+}
+@media screen and (max-width: 992px) {
+	.w-foot {
+		width: 90%;
+	}
+}
